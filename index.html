@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Recetas de Garlic Lab: una receta con foto para cada fórmula de ajo.">
+<meta property="og:title" content="Garlic Lab — Recetas del Laboratorio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garlic Lab — Recetas del Laboratorio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Questrial&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0a;--bg2:#121211;--ink:#ECE6D8;--soft:#b8b2a4;--mute:#7d786d;--line:#2a2926;--gold:#b8902f;--ember:#c0492f}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:"Questrial",sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+header{padding:60px 0 36px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:.66rem;letter-spacing:.42em;text-transform:uppercase;color:var(--gold);margin-bottom:22px}
+.logo{font-family:"Italiana",serif;font-size:clamp(3rem,10vw,4.6rem);line-height:.92;letter-spacing:.06em}
+.logo span{display:block;padding-left:.5em;letter-spacing:.2em}
+.sub{font-family:"Cormorant Garamond",serif;font-size:clamp(1.5rem,4vw,2.1rem);margin-top:26px;line-height:1.15}
+.intro-h{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:1.2rem;color:var(--soft);margin-top:10px}
+nav.idx{display:flex;flex-wrap:wrap;gap:8px;margin-top:30px}
+nav.idx a{font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:var(--soft);border:1px solid var(--line);padding:8px 12px;text-decoration:none}
+nav.idx a:hover{border-color:var(--gold);color:var(--ink)}
+article{padding:56px 0;border-bottom:1px solid var(--line);scroll-margin-top:8px}
+figure{border:1px solid var(--line);overflow:hidden;aspect-ratio:3/2;background:#000}
+figure img{width:100%;height:100%;object-fit:cover;display:block}
+.body{padding-top:28px}
+.code{font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.code span{font-family:"Cormorant Garamond",serif;font-style:italic;text-transform:none;letter-spacing:0;font-size:.95rem;margin-left:6px}
+h2{font-family:"Italiana",serif;font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.08;margin:10px 0 12px;letter-spacing:.02em}
+.intro{font-family:"Cormorant Garamond",serif;font-size:1.2rem;color:var(--soft);max-width:60ch}
+.meta{display:flex;gap:30px;margin:24px 0 8px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.meta div{font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--mute)}
+.meta b{display:block;font-weight:400;color:var(--ink);font-size:.95rem;letter-spacing:.04em;text-transform:none}
+.cols{display:grid;grid-template-columns:1fr 1.5fr;gap:40px}
+h3{font-size:.64rem;letter-spacing:.3em;text-transform:uppercase;color:var(--mute);margin:24px 0 12px;font-weight:400}
+ul,ol{padding-left:18px;color:var(--soft)}
+li{margin-bottom:8px}
+li::marker{color:var(--gold)}
+.tip{margin-top:28px;border-left:2px solid var(--gold);padding:6px 0 6px 16px;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:1.15rem;color:var(--ink)}
+.tip small{display:block;font-family:"Questrial",sans-serif;font-style:normal;font-size:.6rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+.warn{margin-top:16px;font-size:.72rem;letter-spacing:.06em;color:var(--mute)}
+footer{padding:50px 0 64px;text-align:center;color:var(--mute);font-size:.66rem;letter-spacing:.24em;text-transform:uppercase}
+footer a{color:var(--gold);text-decoration:none}
+@media(max-width:700px){.cols{grid-template-columns:1fr;gap:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Recetas del laboratorio</div>
+  <div class="logo">GARLIC<span>LAB</span></div>
+  <div class="sub">Manual de malas influencias</div>
+  <p class="intro-h">Siete formas de arruinar una comida normal. Para mejor.</p>
+  <nav class="idx"><a href="#gc01">Chili Garlic Crisp</a><a href="#gc02">Umami Bomb</a><a href="#gc03">Mediterránea</a><a href="#gc05">El Experimento</a><a href="#mi01">Ámbar Negro</a><a href="#mi02">La Silvestre</a><a href="#mi03">Hot Honey</a></nav>
+</header>
+
+<article id="gc01">
+  <figure><img src="img/gc01.jpg" alt="Papas aplastadas crocantes con crema de limón" loading="lazy"></figure>
+  <div class="body">
+    <div class="code">GC — 01 · Chili Garlic Crisp <span>«El Clásico»</span></div>
+    <h2>Papas aplastadas crocantes con crema de limón</h2>
+    <p class="intro">Papas doradas y crujientes sobre una crema fresca, con el picor del crunch por encima. Para compartir, aunque no sea obligatorio.</p>
+    <div class="meta"><div>Tiempo<b>35 min</b></div><div>Porciones<b>2</b></div><div>Pasos<b>5</b></div></div>
+    <div class="cols">
+      <div><h3>Ingredientes</h3><ul><li>6 papas pequeñas</li><li>3 cucharadas de yogur natural sin azúcar</li><li>1 cucharada de mayonesa</li><li>1 limón</li><li>2 cucharadas de Chili Garlic Crisp</li><li>Sal y pimienta</li><li>Cilantro o ciboulette</li></ul></div>
+      <div><h3>Preparación</h3><ol><li>Cocina las papas con cáscara en agua con sal hasta que estén blandas, 15 a 20 minutos.</li><li>Ponlas en una bandeja aceitada y aplástalas suavemente con un vaso. Agrega aceite, sal y pimienta.</li><li>Hornea a 220 °C por 20 a 25 minutos, hasta que estén doradas y crujientes.</li><li>Mezcla el yogur, la mayonesa, unas gotas de limón y una pizca de sal.</li><li>Extiende la crema en un plato, pon las papas encima y termina con Chili Garlic Crisp, ralladura de limón y cilantro.</li></ol></div>
+    </div>
+    <div class="tip"><small>Tip de chef</small>Deja que las papas suelten el vapor antes de aplastarlas. Mientras más seca la superficie, más crujientes quedan.</div>
+    
+  </div>
+</article>
+<article id="gc02">
+  <figure><img src="img/gc02.jpg" alt="Risotto cremoso de champiñones" loading="lazy"></figure>
+  <div class="body">
+    <div class="code">GC — 02 · Umami Bomb <span>«Shiitake, Sésamo &amp; Crispy Garlic»</span></div>
+    <h2>Risotto cremoso de champiñones</h2>
+    <p class="intro">Un risotto profundo y lleno de sabor, sin pasar horas haciendo caldo de hongos. El Umami Bomb pone la intensidad y la textura.</p>
+    <div class="meta"><div>Tiempo<b>30 min</b></div><div>Porciones<b>2</b></div><div>Pasos<b>5</b></div></div>
+    <div class="cols">
+      <div><h3>Ingredientes</h3><ul><li>1 taza de arroz arborio o de grano corto</li><li>200 g de champiñones</li><li>½ cebolla picada fina</li><li>½ taza de vino blanco (opcional)</li><li>3 a 4 tazas de caldo de verduras caliente</li><li>2 cucharadas de mantequilla</li><li>3 cucharadas de parmesano rallado</li><li>2 cucharadas de Umami Bomb</li><li>Sal y pimienta</li></ul></div>
+      <div><h3>Preparación</h3><ol><li>Saltea los champiñones laminados con un poco de mantequilla hasta dorarlos. Reserva.</li><li>En la misma sartén, cocina la cebolla con el resto de la mantequilla. Agrega el arroz y revuelve un minuto.</li><li>Agrega el vino y deja evaporar. Suma el caldo caliente de a poco, revolviendo, por 18 a 22 minutos.</li><li>Incorpora los champiñones, el parmesano y una cucharada de Umami Bomb. Ajusta la sal.</li><li>Sirve de inmediato y termina con la otra cucharada de Umami Bomb por encima.</li></ol></div>
+    </div>
+    <div class="tip"><small>Tip de chef</small>El risotto tiene que moverse suave cuando inclinas el plato. Si quedó espeso, agrega un chorrito de caldo caliente antes de servir.</div>
+    
+  </div>
+</article>
+<article id="gc03">
+  <figure><img src="img/gc03.jpg" alt="Pollo dorado con salsa mediterránea y puré rústico" loading="lazy"></figure>
+  <div class="body">
+    <div class="code">GC — 03 · Mediterránea <span>«Almendra, Romero &amp; Ajo Negro»</span></div>
+    <h2>Pollo dorado con salsa mediterránea y puré rústico</h2>
+    <p class="intro">Pollo jugoso, puré suave y una salsa donde la almendra, el romero y el ajo negro hacen todo el trabajo. Bistró europeo, hecho en casa.</p>
+    <div class="meta"><div>Tiempo<b>35 min</b></div><div>Porciones<b>2</b></div><div>Pasos<b>5</b></div></div>
+    <div class="cols">
+      <div><h3>Ingredientes</h3><ul><li>2 pechugas de pollo pequeñas</li><li>3 papas medianas</li><li>2 cucharadas de mantequilla</li><li>¼ taza de leche</li><li>3 cucharadas de Mediterránea</li><li>½ taza de crema</li><li>½ limón</li><li>Aceite, sal y pimienta</li></ul></div>
+      <div><h3>Preparación</h3><ol><li>Cocina las papas peladas en agua con sal. Muélelas con la mantequilla y la leche caliente.</li><li>Salpimienta el pollo y dóralo en aceite a fuego medio, 5 a 7 minutos por lado.</li><li>Saca el pollo y baja el fuego. En la misma sartén agrega la crema, dos cucharadas de Mediterránea y unas gotas de limón.</li><li>Revuelve 1 a 2 minutos a fuego suave, sin que hierva fuerte.</li><li>Sirve el pollo sobre el puré, baña con la salsa y termina con la cucharada restante de Mediterránea.</li></ol></div>
+    </div>
+    <div class="tip"><small>Tip de chef</small>Deja reposar el pollo 5 minutos antes de cortarlo para que no pierda jugo. Por dentro tiene que llegar a 74 °C.</div>
+    <p class="warn">Contiene almendra.</p>
+  </div>
+</article>
+<article id="gc05">
+  <figure><img src="img/gc05.jpg" alt="Tacos de carne con salsa tipo mole" loading="lazy"></figure>
+  <div class="body">
+    <div class="code">GC — 05 · El Experimento <span>«Cacao Nibs, Maní &amp; Chili Crisp»</span></div>
+    <h2>Tacos de carne con salsa tipo mole</h2>
+    <p class="intro">Cacao, maní, ají y ajo: los sabores del mole mexicano sin pasar horas en la cocina.</p>
+    <div class="meta"><div>Tiempo<b>25 min</b></div><div>Porciones<b>2</b></div><div>Pasos<b>5</b></div></div>
+    <div class="cols">
+      <div><h3>Ingredientes</h3><ul><li>300 g de vacuno en tiras (asiento o posta rosada)</li><li>4 tortillas pequeñas de maíz o trigo</li><li>3 cucharadas de El Experimento</li><li>½ cebolla morada</li><li>1 limón</li><li>2 cucharadas de yogur natural</li><li>2 cucharadas de agua caliente</li><li>Cilantro, sal y aceite</li></ul></div>
+      <div><h3>Preparación</h3><ol><li>Corta la cebolla en pluma fina y mézclala con jugo de limón y sal. Reserva.</li><li>Sala la carne y dórala en una sartén bien caliente con un poco de aceite.</li><li>Mezcla dos cucharadas de El Experimento con el agua caliente hasta tener una salsa espesa.</li><li>Calienta las tortillas en sartén seca y úntalas con una capa fina de yogur.</li><li>Arma con la carne, la salsa, la cebolla y el cilantro. Termina con la cucharada restante de El Experimento.</li></ol></div>
+    </div>
+    <div class="tip"><small>Tip de chef</small>No cocines El Experimento a fuego fuerte: el cacao y el maní ya vienen tostados. Agrégalo siempre al final.</div>
+    <p class="warn">Contiene maní.</p>
+  </div>
+</article>
+<article id="mi01">
+  <figure><img src="img/mi01.jpg" alt="Salmón glaseado con arroz al limón" loading="lazy"></figure>
+  <div class="body">
+    <div class="code">MI — 01 · Ámbar Negro <span>«Jengibre &amp; Ajo Negro»</span></div>
+    <h2>Salmón glaseado con arroz al limón</h2>
+    <p class="intro">Un salmón brillante y caramelizado, con el dulzor balsámico del ajo negro y el carácter del jengibre. Pocos ingredientes, mucha elegancia.</p>
+    <div class="meta"><div>Tiempo<b>25 min</b></div><div>Porciones<b>2</b></div><div>Pasos<b>5</b></div></div>
+    <div class="cols">
+      <div><h3>Ingredientes</h3><ul><li>2 filetes de salmón de 150 a 180 g</li><li>2 cucharadas de Ámbar Negro</li><li>1 cucharada de salsa de soya</li><li>½ limón</li><li>1 taza de arroz</li><li>1 cucharadita de mantequilla</li><li>Cebollín o ciboulette</li><li>Sal y pimienta</li></ul></div>
+      <div><h3>Preparación</h3><ol><li>Cocina el arroz y, al final, agrégale la mantequilla y ralladura de limón.</li><li>Mezcla Ámbar Negro con la soya y unas gotas de limón.</li><li>Salpimienta el salmón y dóralo en una sartén apenas aceitada, partiendo por el lado de la piel.</li><li>Cuando esté casi listo, baja el fuego, agrega la mezcla de miel y mueve la sartén 30 a 60 segundos hasta glasear.</li><li>Sirve sobre el arroz y termina con cebollín picado.</li></ol></div>
+    </div>
+    <div class="tip"><small>Tip de chef</small>La miel se quema rápido. Agrégala al final y a fuego bajo para un glaseado brillante, sin amargor.</div>
+    <p class="warn">Contiene miel: no apta para menores de 1 año.</p>
+  </div>
+</article>
+<article id="mi02">
+  <figure><img src="img/mi02.jpg" alt="Camembert tibio con peras y nueces" loading="lazy"></figure>
+  <div class="body">
+    <div class="code">MI — 02 · La Silvestre <span>«Romero &amp; Ajo Asado»</span></div>
+    <h2>Camembert tibio con peras y nueces</h2>
+    <p class="intro">Queso cremoso, peras doradas, nueces tostadas y el aroma del romero con ajo asado. Una entrada de restaurante lista en minutos.</p>
+    <div class="meta"><div>Tiempo<b>15 min</b></div><div>Porciones<b>2 a 3</b></div><div>Pasos<b>5</b></div></div>
+    <div class="cols">
+      <div><h3>Ingredientes</h3><ul><li>1 camembert o brie de 125 a 200 g</li><li>1 pera firme</li><li>2 cucharadas de La Silvestre</li><li>¼ taza de nueces</li><li>1 cucharadita de mantequilla</li><li>Pimienta negra</li><li>Tostadas o galletas saladas</li></ul></div>
+      <div><h3>Preparación</h3><ol><li>Calienta el horno a 180 °C. Pon el queso, sin envoltorio, en una fuente pequeña.</li><li>Hornea 8 a 10 minutos, hasta que el centro esté tibio y cremoso sin perder la forma.</li><li>Mientras tanto, corta la pera en láminas y dórala en mantequilla, 2 a 3 minutos por lado.</li><li>Tuesta las nueces en una sartén seca y pícalas gruesas.</li><li>Sirve el queso con las peras encima, baña con La Silvestre y termina con nueces y pimienta.</li></ol></div>
+    </div>
+    <div class="tip"><small>Tip de chef</small>Pon la miel justo antes de servir: así se notan más el romero y el ajo asado contra el queso tibio.</div>
+    <p class="warn">Contiene miel: no apta para menores de 1 año.</p>
+  </div>
+</article>
+<article id="mi03">
+  <figure><img src="img/mi03.jpg" alt="Pizza blanca con serrano, rúcula y Hot Honey" loading="lazy"></figure>
+  <div class="body">
+    <div class="code">MI — 03 · Hot Honey <span>«Chili &amp; Ajo Tostado»</span></div>
+    <h2>Pizza blanca con serrano, rúcula y Hot Honey</h2>
+    <p class="intro">Queso fundido, jamón serrano, rúcula fresca y un hilo de miel picante con ajo tostado. Dulce, salada y picante en cada mordida.</p>
+    <div class="meta"><div>Tiempo<b>20 min</b></div><div>Porciones<b>2</b></div><div>Pasos<b>5</b></div></div>
+    <div class="cols">
+      <div><h3>Ingredientes</h3><ul><li>1 masa de pizza delgada de 28 a 30 cm</li><li>150 g de mozzarella</li><li>60 g de jamón serrano</li><li>1 puñado de rúcula</li><li>2 cucharadas de Hot Honey</li><li>2 cucharadas de queso crema</li><li>Aceite de oliva y pimienta negra</li></ul></div>
+      <div><h3>Preparación</h3><ol><li>Calienta el horno a 230 °C o al máximo que indique la masa.</li><li>Unta una capa fina de queso crema sobre la masa, reparte la mozzarella y unas gotas de aceite.</li><li>Hornea 10 a 12 minutos, hasta que los bordes estén dorados y el queso fundido.</li><li>Saca la pizza y reparte el serrano y la rúcula.</li><li>Termina con Hot Honey en hilos generosos, con sus chips de ajo, y pimienta recién molida.</li></ol></div>
+    </div>
+    <div class="tip"><small>Tip de chef</small>Nunca pongas el Hot Honey antes de hornear: el calor quema la miel. Al final mantiene el dulzor, el picor y el crujiente.</div>
+    <p class="warn">Contiene miel: no apta para menores de 1 año.</p>
+  </div>
+</article>
+<footer>Más locuras del laboratorio en <a href="https://www.instagram.com/garliclab.cl/">@garliclab.cl</a></footer>
+</div>
+</body>
+</html>
